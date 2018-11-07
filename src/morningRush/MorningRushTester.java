@@ -18,7 +18,9 @@ public class MorningRushTester
 
     public static void main(String[] args)
     {
+         
         final int DELAY = 1000;
+        final int initialGulps = 5;
             class DrinkCoffee implements ActionListener
             {
                 
@@ -33,12 +35,14 @@ public class MorningRushTester
                     if(gulps >= 0)
                     {
                         System.out.println(gulps);
-                        --gulps;
+                        
                     }
                     else if(gulps == 0)
                     {
                         System.out.println("Go to School");
+                        
                     }
+                    --gulps;
                 }
             }
             
