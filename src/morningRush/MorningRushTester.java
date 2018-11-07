@@ -49,7 +49,7 @@ public class MorningRushTester
                         gulps = initialGulps;
                         
                     }
-                    gulps--;
+                    --gulps;
                 }
             }
             
